@@ -1,6 +1,8 @@
 # transformer-ocds
 
-Convert from any JSON structure to OCDS-JSON. Input documents can be of any schema, output documents conform to the [OCDS release schema](https://standard.open-contracting.org/latest/en/schema/release/).
+Convert from any JSON structure to OCDS-JSON using a custom transformation specification. Input documents can be of any schema, output documents conform to the [OCDS release schema](https://standard.open-contracting.org/latest/en/schema/release/).
+
+![Transform!](https://media.giphy.com/media/LZFc848TLIMPS/giphy.gif)
 
 ## Installation
 
@@ -19,7 +21,7 @@ From the Linux command line, run the following commands:
 
     --transformer   -t  Name of the transformation to apply to the source documents (defaults to empty string)
 
-The transformation must exist inside **lib/** with the name **ocdsTRANSFORMERData.js** and implement the **releaseObject** and **releasePackage** functions, which should return valid OCDS objects and packages respectively.
+The transformation specification must exist inside **lib/** with the name **ocdsTRANSFORMERData.js** and implement the **releaseObject** and **releasePackage** functions, which should return valid OCDS objects and packages respectively.
 
 Available transformers:
 
