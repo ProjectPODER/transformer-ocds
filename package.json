@@ -1,6 +1,6 @@
 {
   "name": "transformer-ocds",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Convert JSON data to OCDS-JSON",
   "main": "index.js",
   "preferGlobal": "true",
