@@ -1,6 +1,6 @@
 {
   "name": "transformer-ocds",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Convert JSON data to OCDS-JSON",
   "main": "index.js",
   "preferGlobal": "true",
@@ -28,13 +28,14 @@
     "should": "^11.2.1"
   },
   "dependencies": {
+    "JSONStream": "^1.3.2",
     "ajv": "^5.5.2",
     "command-line-args": "^5.1.1",
     "company-laundry": "git+http://git@gitlab.rindecuentas.org/equipo-qqw/company-laundry.git",
+    "csv-string": "^4.0.1",
     "esm": "^3.0.28",
     "event-stream": "^3.3.4",
     "i18n-iso-countries": "^6.8.0",
-    "JSONStream": "^1.3.2",
     "lodash": "^4.17.14",
     "lodash.camelcase": "^4.3.0",
     "lodash.isnull": "^3.0.0",
