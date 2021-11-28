@@ -1,6 +1,6 @@
 {
   "name": "transformer-ocds",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Convert JSON data to OCDS-JSON",
   "main": "index.js",
   "preferGlobal": "true",
@@ -32,6 +32,7 @@
     "ajv": "^5.5.2",
     "command-line-args": "^5.2.0",
     "company-laundry": "git+http://git@github.com/ProjectPODER/company-laundry.git",
+    "csv-parse": "^4.10.1",
     "csv-string": "^4.0.1",
     "esm": "^3.0.28",
     "event-stream": "^3.3.4",
