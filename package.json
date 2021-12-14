@@ -14,8 +14,8 @@
     "type": "git",
     "url": "http://gitlab.rindecuentas.org/equipo-qqw/transformer-ocds"
   },
-  "author": "PODER",
-  "license": "ISC",
+  "author": "Fernando Matzdorf",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
